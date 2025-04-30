@@ -1,6 +1,6 @@
 # MediAI
 
-MediAI is a web application that leverages artificial intelligence to predict diseases based on user-reported symptoms and connects patients with the most suitable healthcare professionals. The platform also allows users to upload and manage their medical records, which can be accessed by doctors through a secure QR code system.
+MediAI is an innovative web application that leverages artificial intelligence to revolutionize the healthcare experience. By predicting diseases based on user-reported symptoms and connecting patients with the most suitable healthcare professionals, MediAI aims to make healthcare more accessible, efficient, and personalized. The platform also provides a secure system for managing medical records, enabling seamless sharing between patients and doctors through QR codes.
 
 ## Table of Contents
 
@@ -13,15 +13,17 @@ MediAI is a web application that leverages artificial intelligence to predict di
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
-- [Contact](#contact)
+
 
 ## Introduction
 
-In the current healthcare landscape, patients often face challenges such as long wait times, misdiagnoses, and inefficient communication with healthcare providers. MediAI aims to address these issues by providing:
+In today's healthcare landscape, patients often face challenges such as long wait times, misdiagnoses, and inefficient communication with healthcare providers. MediAI addresses these issues by offering:
 
-- Accurate disease predictions based on user-inputted symptoms.
-- Recommendations for healthcare professionals best suited to treat the predicted conditions.
-- A secure platform for storing and sharing medical records between patients and doctors.
+- **Accurate Disease Predictions**: Users can input their symptoms, and the AI system predicts potential conditions with high accuracy.
+- **Healthcare Recommendations**: The platform suggests healthcare professionals best suited to treat the predicted conditions.
+- **Secure Medical Records Management**: Patients can upload, store, and share their medical records securely, ensuring privacy and accessibility.
+
+MediAI empowers users to take control of their healthcare journey while providing healthcare professionals with tools to deliver better care.
 
 ## Features
 
@@ -31,11 +33,11 @@ In the current healthcare landscape, patients often face challenges such as long
 
 ## Technologies Used
 
-- **Frontend**: Streamlit
-- **Backend**: Python, Flask
-- **Machine Learning**: Hugging Face Transformers, LangChain
-- **Database**: Secure storage solutions for medical records
-- **Deployment**: Hosted on Vercel
+- **Frontend**: Streamlit for an intuitive and user-friendly interface.
+- **Backend**: Python and Flask for robust and scalable server-side logic.
+- **Machine Learning**: Hugging Face Transformers and LangChain for advanced AI-driven predictions and natural language processing.
+- **Database**: Secure storage solutions for managing sensitive medical records.
+- **Deployment**: Hosted on Vercel for fast and reliable access.
 
 ## Getting Started
 
@@ -53,3 +55,33 @@ Before you begin, ensure you have the following installed:
    ```bash
    git clone https://github.com/amarjit03/mediAI.git
    cd mediAI
+   ```
+
+2. **Install Dependencies**:
+
+   ```bash
+   pip install -r requirements.txt
+   npm install
+   ```
+
+3. **Run the Application**:
+
+   ```bash
+   streamlit run app.py
+   ```
+
+## Usage
+
+1. **Symptom Checker**: Navigate to the symptom checker page, input your symptoms, and receive predictions along with healthcare recommendations.
+2. **Medical Records**: Upload your medical records securely and generate a QR code for easy sharing with healthcare providers.
+3. **Chatbot**: Interact with the AI-powered chatbot for quick answers to your healthcare-related questions.
+
+## Contributing
+
+We welcome contributions! Please read our [Contributing Guidelines](CONTRIBUTING.md) for more details.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+
