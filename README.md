@@ -11,7 +11,7 @@ MediAI is an innovative web application that leverages artificial intelligence t
 - [Key Innovations](#key-innovations)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [🚀 Access MediAI Live!](#🚀-access-mediai-live)
+- [🚀 Access MediAI Live!](#https://ai1doctor1main.streamlit.app/)
 - [🚀 Get Started with MediAI](#🚀-get-started-with-mediai)
   - [Prerequisites](#prerequisites)
   - [🛠️ Installation: Bring MediAI to Life on Your Machine](#🛠️-installation-bring-mediai-to-life-on-your-machine)
